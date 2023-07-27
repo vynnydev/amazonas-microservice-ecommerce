@@ -1,0 +1,17 @@
+{
+  "main": "dist/main/http/index.js",
+  "scripts": {
+    "start": "node dist/main/core/http/server.js",
+    "lint": "eslint src --ext ts,tsx",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "uuid": "^9.0.0"
+  }
+}
